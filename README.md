@@ -1,4 +1,4 @@
-# Three.js TypeScript Boilerplate
+# Three.js TypeScript -Boilerplate
 
 > This boilerplate was created as a sub project of my [ThreeJS and TypeScript Course](https://www.udemy.com/course/threejs-tutorials/?referralCode=4C7E1DE91C3E42F69D0F) and is only just the beginning of what you will create.
   Discount Coupon : https://sbcode.net/coupons#threejs
