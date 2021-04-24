@@ -2,7 +2,8 @@ import * as THREE from '/build/three.module.js';
 import { OrbitControls } from '/jsm/controls/OrbitControls';
 import { FBXLoader } from '/jsm/loaders/FBXLoader';
 import Stats from '/jsm/libs/stats.module';
-import { GUI } from '/jsm/libs/dat.gui.module';
+//import GUI  from 'dat.gui';
+import Dat from 'dat.gui';
 const scene = new THREE.Scene();
 const axesHelper = new THREE.AxesHelper(5);
 scene.add(axesHelper);
@@ -107,7 +108,7 @@ const setAction = (toAction) => {
         activeAction.play();
     }
 };
-const gui = new GUI();
+const gui = new Dat.GUI();
 const animationsFolder = gui.addFolder("Animations");
 animationsFolder.open();
 const clock = new THREE.Clock();
